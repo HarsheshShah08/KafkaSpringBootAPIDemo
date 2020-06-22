@@ -7,7 +7,7 @@
     <File name="File" fileName="FirstLog.log">
       <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </File>
-    <Kafka name="Kafka" topic="devglan-test">
+    <Kafka name="Kafka" topic="MySecondTopicForDemo">
             <PatternLayout pattern="%date %message"/>
             <Property name="bootstrap.servers">localhost:9092</Property>
         </Kafka>
